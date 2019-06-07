@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/rg_username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:textColor="#FFAD33"
+        android:hint="请输入用户名"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawablePadding="5dp"
+        android:maxLines="1"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:id="@+id/rg_userphone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:textColor="#FFAD33"
+        android:hint="请输入手机号"
+        android:layout_below="@+id/rg_username"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawablePadding="5dp"
+        android:maxLines="1"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/rg_userpassword1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:textColor="#FFAD33"
+        android:hint="请输入密码"
+        android:layout_below="@id/rg_userphone"
+        android:layout_marginTop="10dp"
+        android:inputType="numberPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawablePadding="5dp"
+        android:maxLines="1" />
+    <EditText
+        android:id="@+id/rg_userpassword2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:textColor="#FFAD33"
+        android:hint="请再次输入密码"
+        android:layout_below="@id/rg_userpassword1"
+        android:layout_marginTop="10dp"
+        android:inputType="numberPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawablePadding="5dp"
+        android:maxLines="1"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/rg_userpassword2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_btn4"
+        android:text="提交"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>

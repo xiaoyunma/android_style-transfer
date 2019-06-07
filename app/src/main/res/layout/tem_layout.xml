@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageview"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:id="@+id/textview"
+        android:text="你好"
+        android:layout_width="30dp"
+        android:layout_height="20dp" />
+</LinearLayout>
